@@ -8,7 +8,10 @@
    <link rel="stylesheet" href="assets/css/styles.css" />
    <title>yangiliklar.uz</title>
 </head>
-<body>
+<body data-barba="wrapper">
+<div class="box"></div>
+<div class="wrapper">
+   <div class="inner" data-barba="container" data-barba-namespace="home">
 <!--=============== HEADER ===============-->
 <header class="header">
    <nav class="nav container">
@@ -229,8 +232,12 @@
       </div>
    </div>
 </footer>
-
+   </div>
+</div>
 <!--=============== MAIN JS ===============-->
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 <script src="assets/js/main.js"></script>
+
 </body>
 </html>

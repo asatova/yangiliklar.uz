@@ -13,3 +13,17 @@ const showMenu = (toggleId, navId) =>{
 }
 
 showMenu('nav-toggle','nav-menu')
+
+
+barba.init({
+    views: [{
+        namespace: 'home',
+
+        afterEnter() {
+
+        }
+    }],
+
+})
+
+

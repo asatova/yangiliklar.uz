@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body data-barba="wrapper">
+<div class="box"></div>
+<div class="wrapper">
 <!--=============== HEADER ===============-->
+    <div class="inner" data-barba="container" data-barba-namespace="home">
 <header class="header">
     <nav class="nav container">
         <div class="nav__data">
@@ -173,12 +176,15 @@
         </div>
     </div>
 </footer>
-
+    </div>
+</div>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.validate.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/main-contact.js"></script>
+
+
 </body>
 </html>
